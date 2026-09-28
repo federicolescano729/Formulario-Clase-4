@@ -83,39 +83,40 @@
             <h2>Dejanos tus datos para contactarte!</h2>
 
             <form action="">
-                <input type="text" placeholder="Ingrese su nombre y Apellido" required>
-                <label for="text">Nombre y Apellido</label>
+                
+                <div><label for="text">Nombre y Apellido</label>
+                <input type="text" placeholder="Nombre y Apellido" required></div>
 
-                <input type="email" placeholder="Ingrese su email">
-                <label for="email">Email</label>
+                
+                <div></div><label for="email">Email</label>
+                <input type="email" placeholder="Ingrese su email"></div>
 
-                <input type="tel" placeholder="Ingrese su telefono" required>
-                <label for="tel">Telefono</label>
+                
+                <div><label for="tel">Telefono</label>
+                <input type="tel" placeholder="Ingrese su telefono" required></div>
 
+                <div><label for="select">Modelo de Iphone</label>
                 <select name="modelo" id="select" required>
                     <option value="">Seleccione un modelo</option>
                     <option value="Iphone 18 Pro Max">Iphone 18 Pro Max</option>
                     <option value="Iphone 17 Pro Max">Iphone 17 Pro Max</option>
                     <option value="Iphone 16 Pro Max">Iphone 16 Pro Max</option>
-                </select>
-                <label for="select">Modelo de Iphone</label>
+                </select></div>
+                
+                <div><label for="blanco">Blanco</label>
+                <input type="radio" name="color" value="blanco" id="blanco" required></div>
+                
+                <div><label for="negro">Negro</label>
+                <input type="radio" name="color" value="negro" id="negro" required> </div>
+                
+                <div><label for="comentarios">Comentarios</label></div>
+                <textarea name="comentarios" id="comentarios" placeholder="algo que quieras comentarnos" cols="20" rows="5"></textarea>
+                
 
-                <input type="radio" name="color" value="blanco" id="blanco" required>
-                <label for="blanco">Blanco</label>
-
-                <input type="radio" name="color" value="negro" id="negro" required>
-                <label for="negro">Negro</label>
-
-                <textarea name="comentarios" id="comentarios" placeholder="algo que quieras comentarnos" cols="30" rows="5"></textarea>
-            
-
-                <input type="submit" value="Enviar">
-
-
+                <div><input type="submit" value="Enviar"></div>
 
             </form>
         </section>
-        
         </section>
     </main>
         
