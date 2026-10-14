@@ -1,0 +1,120 @@
+
+/* Estilos generales */
+body {
+    background-color: #f2f4f8;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    background-color: #1d3557;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* Títulos */
+h1 {
+    color: #ffffff;
+}
+
+h2 {
+    color: #1d3557;
+}
+
+h3 {
+    color: #457b9d;
+}
+
+/* Menú de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Sección de productos */
+#productos {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid #dbe2ef;
+    border-radius: 10px;
+}
+
+/* Cada producto */
+article {
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+article img,
+article video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Sección de contacto */
+#contacto {
+    background-color: #e3f2fd;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Botones */
+button,
+input[type="submit"] {
+    background-color: #1d3557;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #457b9d;
+}
+
+/* Formulario */
+form {
+    background-color: white;
+    padding: 20px;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+form div {
+    margin-bottom: 12px;
+}
+
+input,
+select,
+textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
